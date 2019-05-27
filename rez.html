@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservation</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Travel Reservation</h1>
+        <h3>
+            <sup>*</sup> Mandatoy fields
+        </h3>
+    </header>
+<!-- Forum section -->
+    <section>
+        <form>
+            <label for="FullName">Full Name*:</label> <br>
+            <input type="text" name="FullName" id="FullName" placeholder="FirstName LastName" required><br>
+            <label for="EmailAddress">Email Address*:</label> <br>
+            <input type="email" name="EmailAddress" id="Email" placeholder="EMAIL_ADDRESS" required><br>
+            <label>Select Tour Package*:</label><br>
+            <select name="Tour" id="SelectTour" required>
+                <option value="Goa">Goa</option>
+                <option value="Greece">Greece</option>
+                <option value="Spain">Spain</option>
+                <option value="Bora Bora">Bora Bora</option>
+            </select><br>
+            <label for="Date">Arrival Date*:</label><br>
+            <input type="date" name="Date" min="2019-06-15" max="2020-05-01" id="ArrivalDate" required><br>
+            <label for="Persons">Number of persons*:</label><br>
+            <input type="number" name="Persons" id="NrPersons" placeholder="Number of persons" required><br>
+            
+            <label>What would you want to avail?</label><br>
+            <label for="Boarding">Boarding</label>
+            <input type="checkbox" checked name="Preference" value="Boarding" id="Boarding"><br>
+            <label for="Fooding">Fooding</label>
+            <input type="checkbox" name="Preference" value="Fooding" id="Fooding"><br>
+            <label for="Sight seeing">Sight Seeing</label>
+            <input type="checkbox" name="Preference" value="Sight seeing" id="Sight seeing"><br>
+            <label for="Discount">Discount Cupon Code:</label><br>
+            <input type="text" name="discount-code"  placeholder="Discount Code" pattern="Tripoff10"><br>
+
+            <label for="terms">Terms of Condition*</label><br>
+            <label for="agreemant">I Agree </label>
+            <input type="radio" name="option" id="agreemant" value="Agreed" checked>
+            <label for="refusal">I disagree</label>
+            <input type="radio" name="option" id="refusal" value="Disagree"><br>
+
+            <input type="submit" value="Complete Reservation">
+            
+        </form>
+    </section>
+
+</body>
+</html>

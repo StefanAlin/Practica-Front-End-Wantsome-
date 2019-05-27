@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+</head>
+<body>
+    
+    <h1>My FeedBack forum</h1>
+
+    <form action="/index.html">
+        <ul>
+            <!-- Personal Information -->
+            <li>
+                <label for="Name">Name:</label>
+                <input type="text" name="Nume" required>
+            </li>
+            <li>
+                <label for="Name">Email:</label>
+                <input type="email" name="Email" required>
+                <!-- <input type="email" name="Email" pattern="[A-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> -->
+            </li>
+            <li>
+                <label for="Name">Password:</label>
+                <input type="password" name="Password" minlength="4" required>
+            </li>
+                
+            <li>Please check all the condition that apply to you</li>
+            <ul>
+                <li>
+                    <label for="Angry">Angry</label> 
+                    <input type="checkbox" name="Emotion" value="Angry" id="Angry">
+                </li>
+                <li>
+                    <label for="Sad">Sad</label> 
+                    <input type="checkbox" name="Emotion" value="Sad" id="Sad">
+                </li>
+                <li>
+                    <label for="Happy">Happy</label>
+                    <input type="checkbox" name="Emotion" value="Happy" id="Happy">
+                </li>
+                <li>
+                    <label for="Ambi">Ambivalent</label> 
+                    <input type="checkbox" name="Emotion" value="Ambivalent" id="Ambi">
+                </li>
+            </ul>
+
+            <li>How satisfied were yoi with our service</li>
+            <ul>
+                <li>
+                    <label for="Satisfied">Very Satisfied</label> 
+                    <input type="radio" name="Option" value="Very Satisfied" id="Satisfied">
+                </li>
+                <li>
+                    <label for="satis">Satisfied</label> 
+                    <input type="radio" name="Option" value="Satisfied" id="satis">
+                </li>
+                <li>
+                    <label for="care">Didn't care</label> 
+                    <input type="radio" name="Option" value="Didn't care" id="care">
+                </li>
+                <li>
+                    <label for="disa">Dissatisfied</label> 
+                    <input type="radio" name="Option" value="Dissatisfied" id="disa">
+                </li>
+                <li>
+                    <label for="vds">Very Dissatisfied</label> 
+                    <input type="radio" name="Option" value="Very Dissatisfied" id="vds">
+                </li>
+            </ul>
+
+            <li>
+                <label for="comments">Further comments</label>
+                <textarea name="comments" id="comm" cols="30" rows="5"></textarea>
+            </li>
+            <li>
+                <label for="bio">Bio Photo:</label>
+                <input type="text" name="Filename" id="filename" disabled>
+                <input type="file" name="File" id="file">
+            </li>
+            <li>
+                <label for="location">Location Visited</label>
+                <select name="Country" id="select">
+                    <option value="England">England</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Germany">Germany</option>
+                </select>
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+        </ul>
+
+    </form>
+
+</body>
+</html>
