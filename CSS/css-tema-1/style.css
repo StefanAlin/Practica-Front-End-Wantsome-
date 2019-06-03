@@ -1,0 +1,39 @@
+
+h1{
+    font-family: Roboto;
+    color:salmon;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+}
+li > a{
+    color:red;
+}
+
+.divLinks{
+    border:1px solid black;
+}
+.divLinks > a{
+    color:green;
+}
+#lastDiv{
+    border:1px sloid black;
+}
+#lastDiv a{
+    color:#C55;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.imgDesc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: burlywood;
+}
+.spanclass{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: chocolate;
+}
