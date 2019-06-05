@@ -1,55 +1,58 @@
-.main-box {
+.container {
     border: solid 2px aqua;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 1500px;
 }
 
-.nav {
+nav {
     border: solid 2px pink;
     position: static;
-    width: 150px;
+    max-width: 150px;
     height: 200px;
     display: block;
     color: pink;
     top: 0%;
 }
 
-.nav li {
+nav li {
     margin-bottom: 10px;
-
 }
 
 
 
-.front-head {
+section {
     border: solid 2px orange;
-    position: absolute;
-    left: 150px;
-    top: 0%;
+    position: relative;
+    left: 154px;
+    width:91.5%;
+    top:-13.5%
+    /* top:0%; */
 }
-
-.middle {
+section:nth-last-of-type(2) {
+    background: lightslategray;
+  }
+/* s {
     border: solid 2px orange;
     position: absolute;
     left: 150px;
     top: 10%;
     width: auto;
     background-color: grey;
-}
+} */
 
-.fixed {
+/* .fixed {
     border: solid 2px orange;
     position: absolute;
     left: 150px;
     top: 29%;
     width: auto;
     background-color: grey;
-}
+} */
 
 footer {
     border: solid 2px green;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
-    width: 100%;
+    width:98.5%;
 }
