@@ -1,0 +1,55 @@
+.main-box {
+    border: solid 2px aqua;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    border: solid 2px pink;
+    position: static;
+    width: 150px;
+    height: 200px;
+    display: block;
+    color: pink;
+    top: 0%;
+}
+
+.nav li {
+    margin-bottom: 10px;
+
+}
+
+
+
+.front-head {
+    border: solid 2px orange;
+    position: absolute;
+    left: 150px;
+    top: 0%;
+}
+
+.middle {
+    border: solid 2px orange;
+    position: absolute;
+    left: 150px;
+    top: 10%;
+    width: auto;
+    background-color: grey;
+}
+
+.fixed {
+    border: solid 2px orange;
+    position: absolute;
+    left: 150px;
+    top: 29%;
+    width: auto;
+    background-color: grey;
+}
+
+footer {
+    border: solid 2px green;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
