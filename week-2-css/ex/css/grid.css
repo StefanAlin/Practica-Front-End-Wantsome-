@@ -25,13 +25,15 @@ section {
     border: solid 2px orange;
     position: relative;
     left: 154px;
-    width:91.5%;
-    top:-13.5%
-    /* top:0%; */
+    width: 91.5%;
+    top: -13.5%
+        /* top:0%; */
 }
+
 section:nth-last-of-type(2) {
     background: lightslategray;
-  }
+}
+
 /* s {
     border: solid 2px orange;
     position: absolute;
@@ -54,5 +56,6 @@ footer {
     border: solid 2px green;
     position: fixed;
     bottom: 0%;
-    width:98.5%;
+    width: 98.5%;
+    text-align: center;
 }
