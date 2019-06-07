@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     border: solid 2px aqua;
     position: relative;
@@ -7,9 +11,9 @@
 
 nav {
     border: solid 2px pink;
-    position: static;
-    max-width: 150px;
+    float: left;
     height: 200px;
+    width: 13%;
     display: block;
     color: pink;
     top: 0%;
@@ -23,11 +27,8 @@ nav li {
 
 section {
     border: solid 2px orange;
-    position: relative;
-    left: 154px;
-    width: 91.5%;
-    top: -13.5%
-        /* top:0%; */
+    float: right;
+    width: 87%;
 }
 
 section:nth-last-of-type(2) {
@@ -39,6 +40,6 @@ footer {
     border: solid 2px green;
     position: fixed;
     bottom: 0%;
-    width: 98.5%;
+    width: 100%;
     text-align: center;
 }
