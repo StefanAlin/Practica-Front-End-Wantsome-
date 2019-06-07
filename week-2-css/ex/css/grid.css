@@ -12,11 +12,12 @@
 nav {
     border: solid 2px pink;
     float: left;
-    height: 200px;
-    width: 13%;
+    clear: left;
+    height: 25%;
+    width: 25%;
+    min-width: 200px;
     display: block;
     color: pink;
-    top: 0%;
 }
 
 nav li {
@@ -27,8 +28,9 @@ nav li {
 
 section {
     border: solid 2px orange;
-    float: right;
-    width: 87%;
+    float: left;
+    width: 75%;
+    min-width: 200px;
 }
 
 section:nth-last-of-type(2) {
@@ -42,4 +44,17 @@ footer {
     bottom: 0%;
     width: 100%;
     text-align: center;
+}
+
+.giraffe {
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    background-image: url(../css/bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    outline: dotted 5px red;
+    outline-offset: 10px;
+    float: left;
+
 }
