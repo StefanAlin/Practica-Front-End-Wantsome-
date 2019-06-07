@@ -34,23 +34,6 @@ section:nth-last-of-type(2) {
     background: lightslategray;
 }
 
-/* s {
-    border: solid 2px orange;
-    position: absolute;
-    left: 150px;
-    top: 10%;
-    width: auto;
-    background-color: grey;
-} */
-
-/* .fixed {
-    border: solid 2px orange;
-    position: absolute;
-    left: 150px;
-    top: 29%;
-    width: auto;
-    background-color: grey;
-} */
 
 footer {
     border: solid 2px green;
