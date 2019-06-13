@@ -1,0 +1,86 @@
+body{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+/*  */
+.childs{
+    display: flex;
+    flex:1;
+    flex-basis: 49%;
+    height: 49%;
+    /* align-content: flex-end; */
+    /* justify-content: space-between; */
+    margin:5px 5px;
+}
+h3{
+    align-self: flex-end;
+    background-color: rgba(3, 3, 3,0.4);
+    padding: 20px;
+    width:100%;
+    margin-bottom: 0;
+}
+/* Set the background to the div elements  */
+.childs:nth-child(1){
+    background-color: black;
+    background-image: url('img/appetizers.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.childs:nth-child(2){
+    background-color: black;
+    background-image: url('img/bread.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.childs:nth-child(3){
+    background-color: black;
+    background-image: url('img/drink.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.childs:nth-child(4){
+    background-color: black;
+    background-image: url('img/food.jpg');
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+@media (max-width: 1016px) {
+    .childs{
+        display: flex;
+        flex:1;
+        flex-basis: 48%;
+        height: 49%;
+        margin:5px 5px;
+    }
+}
+@media (max-width: 516px) {
+    .childs{
+        display: flex;
+        flex:1;
+        flex-basis: 47%;
+        height: 49%;
+        margin:5px 5px;
+    }
+}
