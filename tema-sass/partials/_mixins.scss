@@ -1,0 +1,7 @@
+@mixin props {
+    content:"";
+    border:2px solid $secondary;
+    border-radius: 50%;
+    border-left-color:transparent;
+    position: absolute;
+}
